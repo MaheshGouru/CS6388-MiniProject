@@ -17,13 +17,13 @@
       }
     },
     "plugins": {
-      "ReachCheck": {
-        "src": "src/plugins/ReachCheck",
-        "test": "test/plugins/ReachCheck"
-      },
       "Classifier": {
         "src": "src/plugins/Classifier",
         "test": "test/plugins/Classifier"
+      },
+      "ReachCheck": {
+        "src": "src/plugins/ReachCheck",
+        "test": "test/plugins/ReachCheck"
       }
     },
     "seeds": {
@@ -33,11 +33,19 @@
       "PetriNet": {
         "src": "src/seeds/PetriNet"
       }
-    }
+    },
+    "addons": {},
+    "decorators": {},
+    "layouts": {},
+    "routers": {}
   },
   "dependencies": {
     "visualizers": {},
     "plugins": {},
-    "seeds": {}
+    "seeds": {},
+    "addons": {},
+    "decorators": {},
+    "layouts": {},
+    "routers": {}
   }
 }

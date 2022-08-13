@@ -10,9 +10,9 @@ Notes:
 import sys
 import logging
 from webgme_bindings import WebGME
-from ReachCheck import ReachCheck
+from Classifier import Classifier
 
-logger = logging.getLogger('ReachCheck')
+logger = logging.getLogger('Classifier')
 
 # Read in the context from sys.argv passed by the plugin
 logger.info('sys.args: {0}'.format(sys.argv))
@@ -38,7 +38,7 @@ logger.debug('name-space: {0}'.format(NAMESPACE))
 
 # Create an instance of WebGME and the plugin
 webgme = WebGME(PORT, logger)
-plugin = ReachCheck(webgme, COMMIT_HASH, BRANCH_NAME, ACTIVE_NODE_PATH, ACTIVE_SELECTION_PATHS, NAMESPACE)
+plugin = Classifier(webgme, COMMIT_HASH, BRANCH_NAME, ACTIVE_NODE_PATH, ACTIVE_SELECTION_PATHS, NAMESPACE)
 
 # Do the work
 plugin.main()

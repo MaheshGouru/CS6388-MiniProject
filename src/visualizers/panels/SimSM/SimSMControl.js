@@ -60,7 +60,7 @@ define([
 
         self._currentNodeId = nodeId;
 
-        if (typeof self._currentNodeId === 'string') {
+        if (typeof self._currentNodeId === 'boolean') {
             // Put new node's info into territory rules
             self._selfPatterns = {};
             self._selfPatterns[nodeId] = {children: 1};  // Territory "rule"

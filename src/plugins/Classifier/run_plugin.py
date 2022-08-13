@@ -10,7 +10,7 @@ Notes:
 import sys
 import logging
 from webgme_bindings import WebGME
-from Classifier import Classifier
+from src.plugins import Classifier
 
 logger = logging.getLogger('Classifier')
 

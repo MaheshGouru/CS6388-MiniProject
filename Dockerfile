@@ -33,6 +33,9 @@ ADD package.json /usr/app/
 ADD webgme-setup.json /usr/app/
 ADD app.js /usr/app/
 
+# Install webgme
+RUN npm install webgme
+
 # Install node-modules
 RUN npm install
  

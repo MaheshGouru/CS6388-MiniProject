@@ -5,7 +5,7 @@ The Design Studio allows model editing, simulation, and some limited model-check
 ## Description of Domain
 
 ## Type Use-Cases of the Domain
-
+![AWS Data Pipeline](/AWS.png?raw=true)
 ## How to start modeling Data Engineering Pipelines
 
 ## Features & FAQs

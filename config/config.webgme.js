@@ -8,6 +8,7 @@ var config = require('webgme/config/config.default'),
 
 // The paths can be loaded from the webgme-setup.json
 config.plugin.basePaths.push(__dirname + '/../src/plugins');
+config.plugin.basePaths.push(__dirname + '/../node_modules/webgme-icore/src/plugins');
 config.seedProjects.basePaths.push(__dirname + '/../src/seeds/StateMachine');
 config.seedProjects.basePaths.push(__dirname + '/../src/seeds/PetriNet');
 
@@ -22,8 +23,10 @@ config.visualization.panelPaths.push(__dirname + '/../src/visualizers/panels');
 config.visualization.visualizerDescriptors.push(__dirname + '/../src/visualizers/Visualizers.json');
 // Add requirejs paths
 config.requirejsPaths = {
+  'PyCoreExecutor': 'node_modules/webgme-icore/src/plugins/PyCoreExecutor',
   'panels': './src/visualizers/panels',
   'widgets': './src/visualizers/widgets',
+  'webgme-icore': './node_modules/webgme-icore/src/common',
   'statemachinejoint': './src/common'
 };
 

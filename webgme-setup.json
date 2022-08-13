@@ -41,7 +41,12 @@
   },
   "dependencies": {
     "visualizers": {},
-    "plugins": {},
+    "plugins": {
+      "PyCoreExecutor": {
+        "project": "webgme-icore",
+        "path": "node_modules/webgme-icore/src/plugins/PyCoreExecutor"
+      }
+    },
     "seeds": {},
     "addons": {},
     "decorators": {},

@@ -41,7 +41,7 @@ When you need to install a new library you should follow these steps:
 ### Adding new interpreter/plugin to your DS
 Follow these steps to add a new plugin:
 - for JS plugin: `webgme new plugin MyPluginName`
-- for Python plugin: `webgme new plugin MyPluginName --language Python`
+- for Python plugin: `webgme new plugin --language Python MyPluginName`
 
 ### Adding new visualizer to your DS
 Follow these steps to add a new visualizer:

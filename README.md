@@ -3,12 +3,25 @@ This repository is intended to server as a bootstrap for a fully docker based De
 The Design Studio allows model editing, simulation, and some limited model-checking functionality. As such the studio implements the finite state machine domain. For its special simulator visualization, it uses the [JointJS](https://www.jointjs.com/) javascript library.
 
 ## Description of Domain
+The domain provides a scaffolding for modeling data engineering pipelines of cloud services.
+The user can upload files into AWS S3 Buckets, and then have the information routed through the Route 53 service.
 
-## Type Use-Cases of the Domain
+## Typical Use-Cases of the Domain
 ![AWS Data Pipeline](/AWS.png?raw=true)
+For day-to-day data-warehousing operations, companies such as SAP, Oracle, and AWS along with emerging vendors like 
+Snowflake, provide graphical user interfaces (GUI) for engineers to collaborate and share their models without having 
+to worry about legacy code or version control systems to be instantaneously updated to interact with newly added
+micro-services.
+
 ## How to start modeling Data Engineering Pipelines
+To start modeling data engineering pipelines, navigate to the Data Pipeline (of Object Browser) with the
+Composition View to see how the components of the buckets and routing abstractions help process uploads.
 
 ## Features & FAQs
+The Data Engineering Design Studio provides the ability to detect free-choice petri-nets, state machine, marked-graphs,
+and workflow nets through a static analyzer toolkit. In addition, to evaluate if the uploads will reach a final
+destination in warehousing, there is an additional reachability static analyzer to ensure conformance that the data
+does not get lost in transmission.
 
 ## Installation of the Design Studio
 

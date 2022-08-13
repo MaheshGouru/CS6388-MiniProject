@@ -22,15 +22,19 @@
         "test": "test/plugins/ReachCheck"
       },
       "Classification": {
-        "src": "src/plugins/Classification",
-        "test": "test/plugins/Classification"
+        "src": "src/plugins/Classifier",
+        "test": "test/plugins/Classifier"
+      },
+      "Classifier": {
+        "src": "src/plugins/Classifier",
+        "test": "test/plugins/Classifier"
       }
     },
     "seeds": {
       "StateMachine": {
         "src": "src/seeds/StateMachine"
       },
-      "PetriNet":{
+      "PetriNet": {
         "src": "src/seeds/PetriNet"
       }
     }

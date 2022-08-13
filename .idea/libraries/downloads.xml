@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="downloads">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/node_modules/webgme/src/client/bower_components/EpicEditor/docs/downloads/EpicEditor-v0.1.1.1.zip!/" />
+      <root url="jar://$PROJECT_DIR$/node_modules/webgme/src/client/bower_components/EpicEditor/docs/downloads/EpicEditor-v0.2.2.zip!/" />
+      <root url="jar://$PROJECT_DIR$/node_modules/webgme/src/client/bower_components/EpicEditor/docs/downloads/EpicEditor-v0.2.0.zip!/" />
+      <root url="jar://$PROJECT_DIR$/node_modules/webgme/src/client/bower_components/EpicEditor/docs/downloads/EpicEditor-v0.2.1.zip!/" />
+      <root url="jar://$PROJECT_DIR$/node_modules/webgme/src/client/bower_components/EpicEditor/docs/downloads/EpicEditor-v0.2.1.1.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

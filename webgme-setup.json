@@ -21,10 +21,6 @@
         "src": "src/plugins/ReachCheck",
         "test": "test/plugins/ReachCheck"
       },
-      "Classification": {
-        "src": "src/plugins/Classifier",
-        "test": "test/plugins/Classifier"
-      },
       "Classifier": {
         "src": "src/plugins/Classifier",
         "test": "test/plugins/Classifier"

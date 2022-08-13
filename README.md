@@ -40,12 +40,8 @@ When you need to install a new library you should follow these steps:
 
 ### Adding new interpreter/plugin to your DS
 Follow these steps to add a new plugin:
-- enter the container `docker compose exec webgme bash`
 - for JS plugin: `webgme new plugin MyPluginName`
-- for Python plugin: `webgme new plugin MyPluginName --language Python`
-- exit container `exit`
-- copy webgme-setup.json `docker compose cp webgme:/usr/app/webgme-setup.json webgme-setup.json`
-- copy webgme-config `docker compose cp webgme:/usr/app/config/config.webgme.js config/config.webgme.js`
+- for Python plugin: `webgme new plugin --language Python MyPluginName`
 
 ### Adding new visualizer to your DS
 Follow these steps to add a new visualizer:
@@ -58,7 +54,7 @@ Follow these steps to add a new visualizer:
 ### Adding new seed to your DS
 Follow these steps to add a new seed based on an existing project in your server:
 - enter the container `docker compose exec webgme bash`
-- `webgme new seed MyProjectName -- --seed-name MySeedName`
+- `webgme new seed MyProjectName --seed-name MySeedName`
 - exit container with `exit`
 - copy webgme-setup.json `docker compose cp webgme:/usr/app/webgme-setup.json webgme-setup.json`
 - copy webgme-config `docker compose cp webgme:/usr/app/config/config.webgme.js config/config.webgme.js`
